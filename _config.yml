@@ -1,0 +1,9 @@
+# Build settings
+source: ./_dev
+destination: ./_staging
+
+sass:
+    sass_dir: assets/css
+
+
+markdown: kramdown

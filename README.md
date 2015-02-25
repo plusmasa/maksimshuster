@@ -1,0 +1,1 @@
+All of the work files as well as build files for portfolio site

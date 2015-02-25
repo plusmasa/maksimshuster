@@ -1,0 +1,18 @@
+# List project names here
+# Name folders using a slug convention. So the folder for Virtual Piggy is called virtual-piggy
+# When referencing the directory in href, use {{ project.name | slugify }}. 
+#
+# ------------------------------------------------
+# EXAMPLE
+# ------------------------------------------------
+#
+# {% for project in site.data.projects.projects %}
+#	<a href="{{ site.data.settings.url }}/projects/{{ project.name | slugify }}">{{project.name}}</a>
+# {% endfor %}
+#
+#-------------------------------------------------
+
+projects:
+- { name: Virtual Piggy }
+- { name: Virtual Piggy Teen }
+- { name: BARK }
