@@ -1,6 +1,6 @@
 # Build settings
 source: ./_dev
-destination: ./_staging
+destination: ./_site
 
 sass:
     sass_dir: assets/css
