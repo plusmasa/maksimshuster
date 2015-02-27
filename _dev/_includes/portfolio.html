@@ -1,0 +1,8 @@
+<ul>
+	{% for project in site.data.projects.projects %}
+	<li>
+		<a href="{{ site.data.settings.url }}/projects/{{ project.name | slugify }}">{{project.name}}</a>
+	</li>
+	{% endfor %}
+</ul>
+	
